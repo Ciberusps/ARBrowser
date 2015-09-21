@@ -1,0 +1,2557 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: .25
+    backfaceThreshold: 100
+--- !u!104 &2
+RenderSettings:
+  m_Fog: 0
+  m_FogColor: {r: .5, g: .5, b: .5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: .00999999978
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientLight: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: .5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 0}
+  m_ObjectHideFlags: 0
+--- !u!127 &3
+LevelGameManager:
+  m_ObjectHideFlags: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  m_LightProbes: {fileID: 0}
+  m_Lightmaps: []
+  m_LightmapsMode: 1
+  m_BakedColorSpace: 0
+  m_UseDualLightmapsInForward: 0
+  m_LightmapEditorSettings:
+    m_Resolution: 50
+    m_LastUsedResolution: 0
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_BounceBoost: 1
+    m_BounceIntensity: 1
+    m_SkyLightColor: {r: .860000014, g: .930000007, b: 1, a: 1}
+    m_SkyLightIntensity: 0
+    m_Quality: 0
+    m_Bounces: 1
+    m_FinalGatherRays: 1000
+    m_FinalGatherContrastThreshold: .0500000007
+    m_FinalGatherGradientThreshold: 0
+    m_FinalGatherInterpolationPoints: 15
+    m_AOAmount: 0
+    m_AOMaxDistance: .100000001
+    m_AOContrast: 1
+    m_LODSurfaceMappingDistance: 1
+    m_Padding: 0
+    m_TextureCompression: 0
+    m_LockAtlas: 0
+--- !u!196 &5
+NavMeshSettings:
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    agentRadius: .5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: .400000006
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    widthInaccuracy: 16.666666
+    heightInaccuracy: 10
+    tileSizeHint: 0
+  m_NavMesh: {fileID: 0}
+--- !u!1 &103516032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+  m_PrefabInternal: {fileID: 1959162693}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 103516033}
+  - 33: {fileID: 103516035}
+  - 23: {fileID: 103516034}
+  m_Layer: 8
+  m_Name: t-34 track
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &103516033
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+  m_PrefabInternal: {fileID: 1959162693}
+  m_GameObject: {fileID: 103516032}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.38418579e-07, y: 1.42026865, z: .424979538}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1624968195}
+  m_RootOrder: 0
+--- !u!23 &103516034
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: a966cfc2e10a7df4fbcc7dd0f8047282,
+    type: 3}
+  m_PrefabInternal: {fileID: 1959162693}
+  m_GameObject: {fileID: 103516032}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: f8b48eaf4d608924f966adf11deba09b, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &103516035
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: a966cfc2e10a7df4fbcc7dd0f8047282,
+    type: 3}
+  m_PrefabInternal: {fileID: 1959162693}
+  m_GameObject: {fileID: 103516032}
+  m_Mesh: {fileID: 4300002, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+--- !u!1001 &156711765
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 410654319}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: .000150000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: .000150000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: .000150000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+  m_RootGameObject: {fileID: 1620370511}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &290778130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 290778131}
+  - 33: {fileID: 290778133}
+  - 23: {fileID: 290778132}
+  m_Layer: 8
+  m_Name: barrel_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &290778131
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 290778130}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: -.431916028, y: 1.00487089, z: .536750913}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 449259248}
+  m_RootOrder: 1
+--- !u!23 &290778132
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 308d89d449f411445b137560ceeaab03,
+    type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 290778130}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: e5c6ae2c3fdd73441a99d32139c48582, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &290778133
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 308d89d449f411445b137560ceeaab03,
+    type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 290778130}
+  m_Mesh: {fileID: 4300002, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+--- !u!1 &385545818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 385545819}
+  - 33: {fileID: 385545821}
+  - 23: {fileID: 385545820}
+  m_Layer: 8
+  m_Name: Plane_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &385545819
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 385545818}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 449259248}
+  m_RootOrder: 4
+--- !u!23 &385545820
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 308d89d449f411445b137560ceeaab03,
+    type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 385545818}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 39e28af7dd1ce5a4387acc1c2727904c, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &385545821
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 308d89d449f411445b137560ceeaab03,
+    type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 385545818}
+  m_Mesh: {fileID: 4300006, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+--- !u!1 &410654318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 410654319}
+  - 114: {fileID: 410654320}
+  m_Layer: 8
+  m_Name: 001_Crane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &410654319
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 410654318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1620370515}
+  m_Father: {fileID: 657581942}
+  m_RootOrder: 0
+--- !u!114 &410654320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 410654318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02d1ce5da0c446acaea956b6ae07690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToRemainVisible: 0
+  eventReceiver: {fileID: 0}
+  _markerTag: 001_Crane
+--- !u!1 &449259247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 449259248}
+  - 95: {fileID: 449259249}
+  m_Layer: 8
+  m_Name: barrels
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &449259248
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 449259247}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: .300000012, y: .300000012, z: .300000012}
+  m_Children:
+  - {fileID: 1710046106}
+  - {fileID: 290778131}
+  - {fileID: 2017097252}
+  - {fileID: 720968905}
+  - {fileID: 385545819}
+  - {fileID: 979876292}
+  m_Father: {fileID: 865118886}
+  m_RootOrder: 0
+--- !u!95 &449259249
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 308d89d449f411445b137560ceeaab03,
+    type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 449259247}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &657581941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 657581942}
+  m_Layer: 8
+  m_Name: Objects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &657581942
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 657581941}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 410654319}
+  - {fileID: 1990522609}
+  - {fileID: 1387394934}
+  - {fileID: 865118886}
+  m_Father: {fileID: 1501550793}
+  m_RootOrder: 2
+--- !u!1 &715590754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 715590755}
+  - 108: {fileID: 715590756}
+  m_Layer: 8
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &715590755
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 715590754}
+  m_LocalRotation: {x: -.272160292, y: .135847345, z: .890785038, w: .337603867}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1501550793}
+  m_RootOrder: 1
+--- !u!108 &715590756
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 715590754}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_Strength: 1
+    m_Bias: .0500000007
+    m_Softness: 4
+    m_SoftnessFade: 1
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_ActuallyLightmapped: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 1
+  m_ShadowSamples: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_IndirectIntensity: 1
+  m_AreaSize: {x: 1, y: 1}
+--- !u!1 &720968904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 720968905}
+  m_Layer: 8
+  m_Name: Lightning
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &720968905
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 720968904}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: .594430506, y: 6.59176636, z: .767752826}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1435358055}
+  m_Father: {fileID: 449259248}
+  m_RootOrder: 3
+--- !u!1 &799053611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 799053612}
+  - 33: {fileID: 799053614}
+  - 23: {fileID: 799053613}
+  m_Layer: 8
+  m_Name: Group34029
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &799053612
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 799053611}
+  m_LocalRotation: {x: .339490354, y: .650413454, z: .60117358, w: -.316700161}
+  m_LocalPosition: {x: 2.61795044, y: 1.06464374, z: -.436128825}
+  m_LocalScale: {x: 27.0937233, y: 27.0937195, z: 27.0937176}
+  m_Children: []
+  m_Father: {fileID: 1373194963}
+  m_RootOrder: 3
+--- !u!23 &799053613
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 0b593e826a6ed2c48aaa14a7df831898,
+    type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 799053611}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 56f4f8ea850fa8543866c32c0daa2a37, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &799053614
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 0b593e826a6ed2c48aaa14a7df831898,
+    type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 799053611}
+  m_Mesh: {fileID: 4300006, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+--- !u!1 &865118885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 865118886}
+  - 114: {fileID: 865118887}
+  m_Layer: 8
+  m_Name: 004_Burrels
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &865118886
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 865118885}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 449259248}
+  m_Father: {fileID: 657581942}
+  m_RootOrder: 3
+--- !u!114 &865118887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 865118885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02d1ce5da0c446acaea956b6ae07690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToRemainVisible: 0
+  eventReceiver: {fileID: 0}
+  _markerTag: 004_Burrels
+--- !u!1 &868438908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 868438909}
+  - 33: {fileID: 868438911}
+  - 23: {fileID: 868438910}
+  m_Layer: 8
+  m_Name: Group19105
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &868438909
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 868438908}
+  m_LocalRotation: {x: .529419422, y: .475966752, z: .52014941, w: -.471821249}
+  m_LocalPosition: {x: 1.59585631, y: .208068535, z: -.0598859787}
+  m_LocalScale: {x: 162.010071, y: 150.422089, z: 162.196808}
+  m_Children: []
+  m_Father: {fileID: 1373194963}
+  m_RootOrder: 2
+--- !u!23 &868438910
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 0b593e826a6ed2c48aaa14a7df831898,
+    type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 868438908}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 96624b03ff1b4364aabfdab1d5cae8e0, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &868438911
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 0b593e826a6ed2c48aaa14a7df831898,
+    type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 868438908}
+  m_Mesh: {fileID: 4300002, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+--- !u!1001 &870289564
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 865118886}
+    m_Modifications:
+    - target: {fileID: 400006, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_LocalScale.x
+      value: .300000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_LocalScale.y
+      value: .300000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+      propertyPath: m_LocalScale.z
+      value: .300000012
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_RootGameObject: {fileID: 449259247}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1001 &880365522
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1387394934}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.0500000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_LocalScale.x
+      value: .0199999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_LocalScale.y
+      value: .0199999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_LocalScale.z
+      value: .0199999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+  m_RootGameObject: {fileID: 1373194962}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &979876291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 979876292}
+  m_Layer: 8
+  m_Name: Sky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &979876292
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 979876291}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 449259248}
+  m_RootOrder: 5
+--- !u!1 &985818399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 985818400}
+  - 20: {fileID: 985818405}
+  - 124: {fileID: 985818404}
+  - 92: {fileID: 985818403}
+  - 81: {fileID: 985818402}
+  - 114: {fileID: 985818401}
+  m_Layer: 8
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &985818400
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 985818399}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1501550793}
+  m_RootOrder: 0
+--- !u!114 &985818401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 985818399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac62947536a3704295fb870f025f1e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventReceiver: {fileID: 0}
+  Stereo: 0
+  StereoEye: 1
+  Optical: 0
+  OpticalParamsFilenameIndex: 0
+  OpticalParamsFilename: 
+  OpticalParamsFileContents: 
+  OpticalEyeLateralOffsetRight: 0
+--- !u!81 &985818402
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 985818399}
+  m_Enabled: 1
+--- !u!92 &985818403
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 985818399}
+  m_Enabled: 1
+--- !u!124 &985818404
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 985818399}
+  m_Enabled: 1
+--- !u!20 &985818405
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 985818399}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 256
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
+--- !u!1 &1235597355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1235597356}
+  - 33: {fileID: 1235597358}
+  - 23: {fileID: 1235597357}
+  m_Layer: 8
+  m_Name: Group19103
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1235597356
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 1235597355}
+  m_LocalRotation: {x: -.323141366, y: .608763635, z: .666354299, w: .284531951}
+  m_LocalPosition: {x: 3.41488576, y: .253135145, z: -1.04690742}
+  m_LocalScale: {x: 161.393417, y: 152.740952, z: 162.195343}
+  m_Children: []
+  m_Father: {fileID: 1373194963}
+  m_RootOrder: 1
+--- !u!23 &1235597357
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 0b593e826a6ed2c48aaa14a7df831898,
+    type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 1235597355}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 96624b03ff1b4364aabfdab1d5cae8e0, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1235597358
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 0b593e826a6ed2c48aaa14a7df831898,
+    type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 1235597355}
+  m_Mesh: {fileID: 4300000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+--- !u!1 &1283506500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1283506501}
+  m_Layer: 8
+  m_Name: Particle View 01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1283506501
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 1283506500}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1373194963}
+  m_RootOrder: 5
+--- !u!1 &1373194962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1373194963}
+  - 95: {fileID: 1373194964}
+  m_Layer: 8
+  m_Name: Bread 01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1373194963
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 1373194962}
+  m_LocalRotation: {x: -.707106829, y: 0, z: 0, w: .707106829}
+  m_LocalPosition: {x: -.0500000007, y: 0, z: 0}
+  m_LocalScale: {x: .0199999996, y: .0199999996, z: .0199999996}
+  m_Children:
+  - {fileID: 1588042751}
+  - {fileID: 1235597356}
+  - {fileID: 868438909}
+  - {fileID: 799053612}
+  - {fileID: 2038644386}
+  - {fileID: 1283506501}
+  m_Father: {fileID: 1387394934}
+  m_RootOrder: 0
+--- !u!95 &1373194964
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 0b593e826a6ed2c48aaa14a7df831898,
+    type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 1373194962}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1387394933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1387394934}
+  - 114: {fileID: 1387394935}
+  m_Layer: 8
+  m_Name: 003_Bread
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1387394934
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1387394933}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1373194963}
+  m_Father: {fileID: 657581942}
+  m_RootOrder: 2
+--- !u!114 &1387394935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1387394933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02d1ce5da0c446acaea956b6ae07690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToRemainVisible: 0
+  eventReceiver: {fileID: 0}
+  _markerTag: 003_Bread
+--- !u!1 &1435358054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1435358055}
+  m_Layer: 8
+  m_Name: Light_Target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1435358055
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 1435358054}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .7670663, y: -6.83584452, z: .111417845}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 720968905}
+  m_RootOrder: 0
+--- !u!1 &1501550792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1501550793}
+  - 114: {fileID: 1501550794}
+  m_Layer: 8
+  m_Name: SceneRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1501550793
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1501550792}
+  m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 985818400}
+  - {fileID: 715590755}
+  - {fileID: 657581942}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+--- !u!114 &1501550794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1501550792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 365d48fee229c499493cd3bcf4e7a59d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  findMarkerTags: []
+  _findMarkerMode: 0
+--- !u!1 &1588042750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1588042751}
+  - 33: {fileID: 1588042753}
+  - 23: {fileID: 1588042752}
+  m_Layer: 8
+  m_Name: ChamferBox001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1588042751
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 1588042750}
+  m_LocalRotation: {x: -.169003293, y: .686614394, z: .686612189, w: .1690038}
+  m_LocalPosition: {x: 3.01357961, y: -.0280383434, z: .0963347629}
+  m_LocalScale: {x: 1, y: 1.00000012, z: .796279609}
+  m_Children: []
+  m_Father: {fileID: 1373194963}
+  m_RootOrder: 0
+--- !u!23 &1588042752
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 0b593e826a6ed2c48aaa14a7df831898,
+    type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 1588042750}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: dabbd9607db824942be88493a119bd61, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1588042753
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 0b593e826a6ed2c48aaa14a7df831898,
+    type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 1588042750}
+  m_Mesh: {fileID: 4300004, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+--- !u!1 &1620370511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+  m_PrefabInternal: {fileID: 156711765}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1620370515}
+  - 33: {fileID: 1620370514}
+  - 23: {fileID: 1620370513}
+  - 95: {fileID: 1620370512}
+  m_Layer: 8
+  m_Name: crane_001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1620370512
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 964d9198724462042a8307dc18bbbabd,
+    type: 3}
+  m_PrefabInternal: {fileID: 156711765}
+  m_GameObject: {fileID: 1620370511}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &1620370513
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 964d9198724462042a8307dc18bbbabd,
+    type: 3}
+  m_PrefabInternal: {fileID: 156711765}
+  m_GameObject: {fileID: 1620370511}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: f9772763f62d0db47b51ea9971c518f6, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1620370514
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 964d9198724462042a8307dc18bbbabd,
+    type: 3}
+  m_PrefabInternal: {fileID: 156711765}
+  m_GameObject: {fileID: 1620370511}
+  m_Mesh: {fileID: 4300000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+--- !u!4 &1620370515
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 964d9198724462042a8307dc18bbbabd, type: 3}
+  m_PrefabInternal: {fileID: 156711765}
+  m_GameObject: {fileID: 1620370511}
+  m_LocalRotation: {x: -.707106829, y: 0, z: 0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: .000150000007, y: .000150000007, z: .000150000007}
+  m_Children: []
+  m_Father: {fileID: 410654319}
+  m_RootOrder: 0
+--- !u!1 &1624968191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+  m_PrefabInternal: {fileID: 1959162693}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1624968195}
+  - 33: {fileID: 1624968194}
+  - 23: {fileID: 1624968193}
+  - 95: {fileID: 1624968192}
+  m_Layer: 8
+  m_Name: t-34_001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1624968192
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: a966cfc2e10a7df4fbcc7dd0f8047282,
+    type: 3}
+  m_PrefabInternal: {fileID: 1959162693}
+  m_GameObject: {fileID: 1624968191}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &1624968193
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: a966cfc2e10a7df4fbcc7dd0f8047282,
+    type: 3}
+  m_PrefabInternal: {fileID: 1959162693}
+  m_GameObject: {fileID: 1624968191}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 7a3d5d9199f6f1043a53e546297877ec, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1624968194
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: a966cfc2e10a7df4fbcc7dd0f8047282,
+    type: 3}
+  m_PrefabInternal: {fileID: 1959162693}
+  m_GameObject: {fileID: 1624968191}
+  m_Mesh: {fileID: 4300000, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+--- !u!4 &1624968195
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+  m_PrefabInternal: {fileID: 1959162693}
+  m_GameObject: {fileID: 1624968191}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -4.37113883e-08}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: .0199999996, y: .0199999996, z: .0199999996}
+  m_Children:
+  - {fileID: 103516033}
+  m_Father: {fileID: 1990522609}
+  m_RootOrder: 0
+--- !u!1 &1710046105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1710046106}
+  - 33: {fileID: 1710046108}
+  - 23: {fileID: 1710046107}
+  m_Layer: 8
+  m_Name: barrel_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1710046106
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 1710046105}
+  m_LocalRotation: {x: 7.79627101e-08, y: .994919658, z: -9.57579616e-08, w: -.100672439}
+  m_LocalPosition: {x: -.610331535, y: 1.00487101, z: .213694051}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 449259248}
+  m_RootOrder: 0
+--- !u!23 &1710046107
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 308d89d449f411445b137560ceeaab03,
+    type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 1710046105}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: e5c6ae2c3fdd73441a99d32139c48582, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1710046108
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 308d89d449f411445b137560ceeaab03,
+    type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 1710046105}
+  m_Mesh: {fileID: 4300000, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+--- !u!1 &1766185127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1766185128}
+  - 114: {fileID: 1766185130}
+  - 114: {fileID: 1766185129}
+  - 114: {fileID: 1766185131}
+  - 114: {fileID: 1766185132}
+  - 114: {fileID: 1766185133}
+  m_Layer: 0
+  m_Name: ARToolKit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1766185128
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1766185127}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &1766185129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1766185127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed68815202b64d4c956d71c0f176088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkerType: 0
+  Tag: 001_Crane
+  PatternFilenameIndex: 0
+  PatternFilename: 001_Crane
+  PatternContents: "  69  69  71  62 155 254 254 254 254 254 254 254 254 254 254 254\r\n
+    \ 72  72  74  63 160 253 253 254 254 254 254 254 254 254 254 253\r\n  72  72  74
+    \ 71 152 254 252 254 254 254 254 254 254 254 254 254\r\n  70  71  73  65 140 254
+    252 254 254 254 254 254 254 254 254 254\r\n  67  67  67  66 144 251 254 254 254
+    254 254 254 254 254 254 254\r\n  67  67  70  62 140 252 254 254 254 254 254 254
+    254 254 254 254\r\n  70  71  72  71 146 251 253 254 254 254 254 254 254 254 254
+    254\r\n  76  71  74  69 120 254 252 253 254 254 254 254 254 254 254 254\r\n  67
+    \ 72  75  73 131 254 253 253 254 254 254 254 254 254 254 254\r\n  73  73  75  73
+    111 253 254 254 254 254 254 254 254 254 254 254\r\n  89  77 100  77 137 253 254
+    254 254 254 254 254 254 254 254 254\r\n 252 253 253 249 251 253 254 254 254 254
+    254 254 254 254 254 254\r\n 254 254 254 254 254 254 254 254 254 254 254 254 254
+    254 254 254\r\n 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254\r\n
+    254 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254\r\n 254 254 254
+    254 254 254 254 254 254 254 254 254 254 254 254 254\r\n  71  71  72  64 156 255
+    255 255 255 255 255 255 255 255 255 255\r\n  71  70  70  61 159 255 255 255 255
+    255 255 255 255 255 255 255\r\n  71  70  73  69 150 255 255 255 255 255 255 255
+    255 255 255 255\r\n  71  72  75  65 138 255 255 255 255 255 255 255 255 255 255
+    255\r\n  73  72  73  72 149 253 255 255 255 255 255 255 255 255 255 255\r\n  74
+    \ 72  74  65 138 255 255 255 255 255 255 255 255 255 255 255\r\n  73  72  73  73
+    139 255 255 255 255 255 255 255 255 255 255 255\r\n  73  72  77  74 118 255 255
+    255 255 255 255 255 255 255 255 255\r\n  74  73  78  77 133 255 255 255 255 255
+    255 255 255 255 255 255\r\n  74  76  79  76 115 255 255 255 255 255 255 255 255
+    255 255 255\r\n  87  77  97  72 141 254 255 255 255 255 255 255 255 255 255 255\r\n
+    254 254 255 254 255 254 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255\r\n  65  66  67  59 153 254 255 255 255 255 255 255 255 255 255
+    254\r\n  65  66  66  51 153 253 255 255 255 255 255 255 255 255 255 254\r\n  65
+    \ 66  68  61 144 251 253 255 255 255 255 255 255 255 255 255\r\n  66  67  70  59
+    132 251 252 255 255 255 255 255 255 255 255 255\r\n  67  67  68  67 145 252 255
+    255 255 255 255 255 255 255 255 255\r\n  69  67  69  60 136 254 255 255 255 255
+    255 255 255 255 255 255\r\n  67  67  68  68 138 254 255 255 255 255 255 255 255
+    255 255 255\r\n  63  68  68  60 110 251 255 255 255 255 255 255 255 255 255 255\r\n
+    \ 64  68  70  65 124 252 255 255 255 255 255 255 255 255 255 255\r\n  70  67  69
+    \ 66 111 254 255 255 255 255 255 255 255 255 255 255\r\n  83  69  88  63 136 253
+    255 255 255 255 255 255 255 255 255 255\r\n 252 252 252 250 253 253 255 255 255
+    255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n\r\n 254 253 254
+    254 254 254 254 254 254 254 254 254 254 254 254 254\r\n 254 254 254 254 254 254
+    254 254 254 254 254 254 254 254 254 254\r\n 254 254 254 254 254 254 254 254 254
+    254 254 254 254 254 254 254\r\n 254 254 254 254 254 254 254 254 254 254 254 254
+    254 254 254 254\r\n 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254
+    254\r\n 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254\r\n 254
+    254 254 254 254 254 254 254 254 254 254 254 254 254 254 254\r\n 254 254 254 254
+    254 254 254 254 254 254 254 254 254 254 254 254\r\n 254 254 254 254 254 254 254
+    253 253 254 254 254 254 254 254 254\r\n 254 253 252 252 254 254 253 252 253 254
+    254 254 254 254 254 254\r\n 254 253 254 254 251 252 251 254 254 253 253 253 254
+    254 254 254\r\n 155 160 152 140 144 140 146 120 131 111 137 251 254 254 254 254\r\n
+    \ 62  63  71  65  66  62  71  69  73  73  77 249 254 254 254 254\r\n  71  74  74
+    \ 73  67  70  72  74  75  75 100 253 254 254 254 254\r\n  69  72  72  71  67  67
+    \ 71  71  72  73  77 253 254 254 254 254\r\n  69  72  72  70  67  67  70  76  67
+    \ 73  89 252 254 254 254 254\r\n 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255
+    255 253 255 255 255 255 255 254 254 255 255 255 255\r\n 156 159 150 138 149 138
+    139 118 133 115 141 255 255 255 255 255\r\n  64  61  69  65  72  65  73  74  77
+    \ 76  72 254 255 255 255 255\r\n  72  70  73  75  73  74  73  77  78  79  97 255
+    255 255 255 255\r\n  71  70  70  72  72  72  72  72  73  76  77 254 255 255 255
+    255\r\n  71  71  71  71  73  74  73  73  74  74  87 254 255 255 255 255\r\n 254
+    254 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\r\n 255 255 253 252 255 255 255 255 255
+    255 255 255 255 255 255 255\r\n 254 253 251 251 252 254 254 251 252 254 253 253
+    255 255 255 255\r\n 153 153 144 132 145 136 138 110 124 111 136 253 255 255 255
+    255\r\n  59  51  61  59  67  60  68  60  65  66  63 250 255 255 255 255\r\n  67
+    \ 66  68  70  68  69  68  68  70  69  88 252 255 255 255 255\r\n  66  66  66  67
+    \ 67  67  67  68  68  67  69 252 255 255 255 255\r\n  65  65  65  66  67  69  67
+    \ 63  64  70  83 252 255 255 255 255\r\n\r\n 254 254 254 254 254 254 254 254 254
+    254 254 254 254 254 254 254\r\n 254 254 254 254 254 254 254 254 254 254 254 254
+    254 254 254 254\r\n 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254
+    254\r\n 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254\r\n 254
+    254 254 254 254 254 254 254 254 254 253 251 249 253 253 252\r\n 254 254 254 254
+    254 254 254 254 254 254 253 137  77 100  77  89\r\n 254 254 254 254 254 254 254
+    254 254 254 253 111  73  75  73  73\r\n 254 254 254 254 254 254 254 254 253 253
+    254 131  73  75  72  67\r\n 254 254 254 254 254 254 254 254 253 252 254 120  69
+    \ 74  71  76\r\n 254 254 254 254 254 254 254 254 254 253 251 146  71  72  71  70\r\n
+    254 254 254 254 254 254 254 254 254 254 252 140  62  70  67  67\r\n 254 254 254
+    254 254 254 254 254 254 254 251 144  66  67  67  67\r\n 254 254 254 254 254 254
+    254 254 254 252 254 140  65  73  71  70\r\n 254 254 254 254 254 254 254 254 254
+    252 254 152  71  74  72  72\r\n 253 254 254 254 254 254 254 254 254 253 253 160
+    \ 63  74  72  72\r\n 254 254 254 254 254 254 254 254 254 254 254 155  62  71  69
+    \ 69\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255
+    254 255 254 255 254 254\r\n 255 255 255 255 255 255 255 255 255 255 254 141  72
+    \ 97  77  87\r\n 255 255 255 255 255 255 255 255 255 255 255 115  76  79  76  74\r\n
+    255 255 255 255 255 255 255 255 255 255 255 133  77  78  73  74\r\n 255 255 255
+    255 255 255 255 255 255 255 255 118  74  77  72  73\r\n 255 255 255 255 255 255
+    255 255 255 255 255 139  73  73  72  73\r\n 255 255 255 255 255 255 255 255 255
+    255 255 138  65  74  72  74\r\n 255 255 255 255 255 255 255 255 255 255 253 149
+    \ 72  73  72  73\r\n 255 255 255 255 255 255 255 255 255 255 255 138  65  75  72
+    \ 71\r\n 255 255 255 255 255 255 255 255 255 255 255 150  69  73  70  71\r\n 255
+    255 255 255 255 255 255 255 255 255 255 159  61  70  70  71\r\n 255 255 255 255
+    255 255 255 255 255 255 255 156  64  72  71  71\r\n 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n
+    255 255 255 255 255 255 255 255 255 255 253 253 250 252 252 252\r\n 255 255 255
+    255 255 255 255 255 255 255 253 136  63  88  69  83\r\n 255 255 255 255 255 255
+    255 255 255 255 254 111  66  69  67  70\r\n 255 255 255 255 255 255 255 255 255
+    255 252 124  65  70  68  64\r\n 255 255 255 255 255 255 255 255 255 255 251 110
+    \ 60  68  68  63\r\n 255 255 255 255 255 255 255 255 255 255 254 138  68  68  67
+    \ 67\r\n 255 255 255 255 255 255 255 255 255 255 254 136  60  69  67  69\r\n 255
+    255 255 255 255 255 255 255 255 255 252 145  67  68  67  67\r\n 255 255 255 255
+    255 255 255 255 255 252 251 132  59  70  67  66\r\n 255 255 255 255 255 255 255
+    255 255 253 251 144  61  68  66  65\r\n 254 255 255 255 255 255 255 255 255 255
+    253 153  51  66  66  65\r\n 254 255 255 255 255 255 255 255 255 255 254 153  59
+    \ 67  66  65\r\n\r\n 254 254 254 254 252  89  73  67  76  70  67  67  70  72  72
+    \ 69\r\n 254 254 254 254 253  77  73  72  71  71  67  67  71  72  72  69\r\n 254
+    254 254 254 253 100  75  75  74  72  70  67  73  74  74  71\r\n 254 254 254 254
+    249  77  73  73  69  71  62  66  65  71  63  62\r\n 254 254 254 254 251 137 111
+    131 120 146 140 144 140 152 160 155\r\n 254 254 254 254 253 253 253 254 254 251
+    252 251 254 254 253 254\r\n 254 254 254 254 254 254 254 253 252 253 254 254 252
+    252 253 254\r\n 254 254 254 254 254 254 254 253 253 254 254 254 254 254 254 254\r\n
+    254 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254\r\n 254 254 254
+    254 254 254 254 254 254 254 254 254 254 254 254 254\r\n 254 254 254 254 254 254
+    254 254 254 254 254 254 254 254 254 254\r\n 254 254 254 254 254 254 254 254 254
+    254 254 254 254 254 254 254\r\n 254 254 254 254 254 254 254 254 254 254 254 254
+    254 254 254 254\r\n 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254
+    254\r\n 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254\r\n 254
+    254 254 254 254 254 254 254 254 254 254 254 254 254 253 254\r\n 255 255 255 255
+    254  87  74  74  73  73  74  73  71  71  71  71\r\n 255 255 255 255 254  77  76
+    \ 73  72  72  72  72  72  70  70  71\r\n 255 255 255 255 255  97  79  78  77  73
+    \ 74  73  75  73  70  72\r\n 255 255 255 255 254  72  76  77  74  73  65  72  65
+    \ 69  61  64\r\n 255 255 255 255 255 141 115 133 118 139 138 149 138 150 159 156\r\n
+    255 255 255 255 254 254 255 255 255 255 255 253 255 255 255 255\r\n 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255\r\n 255 255 255 255 252  83  70  64  63  67  69  67  66
+    \ 65  65  65\r\n 255 255 255 255 252  69  67  68  68  67  67  67  67  66  66  66\r\n
+    255 255 255 255 252  88  69  70  68  68  69  68  70  68  66  67\r\n 255 255 255
+    255 250  63  66  65  60  68  60  67  59  61  51  59\r\n 255 255 255 255 253 136
+    111 124 110 138 136 145 132 144 153 153\r\n 255 255 255 255 253 253 254 252 251
+    254 254 252 251 251 253 254\r\n 255 255 255 255 255 255 255 255 255 255 255 255
+    252 253 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 254 254\r\n\r\n"
+  PatternWidth: .0799999982
+  BarcodeID: 0
+  MultiConfigFile: 
+  NFTDataName: 
+  currentUseContPoseEstimation: 0
+  currentFiltered: 0
+  currentFilterSampleRate: 30
+  currentFilterCutoffFreq: 15
+  currentNFTScale: 1
+--- !u!114 &1766185130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1766185127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe4ec33cee90c844ea1bcc2cd642033e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseNativeGLTexturingIfAvailable: 1
+  AllowNonRGBVideo: 0
+  QuitOnEscOrBack: 1
+  AutoStartAR: 1
+  videoCParamName0: camera_para
+  videoConfigurationWindows0: -flipV
+  videoConfigurationMacOSX0: -width=640 -height=480
+  videoConfigurationiOS0: 
+  videoConfigurationAndroid0: 
+  videoConfigurationWindowsStore0: -device=WinMC -format=BGRA -position=rear
+  BackgroundLayer0: 0
+  VideoIsStereo: 0
+  transL2RName: transL2R
+  videoCParamName1: camera_paraR
+  videoConfigurationWindows1: -devNum=2 -showDialog -flipV
+  videoConfigurationMacOSX1: -source=1 -width=640 -height=480
+  videoConfigurationiOS1: 
+  videoConfigurationAndroid1: 
+  videoConfigurationWindowsStore1: -device=WinMC -format=BGRA
+  BackgroundLayer1: 9
+  NearPlane: .00999999978
+  FarPlane: 5
+  ContentRotate90: 0
+  ContentFlipH: 0
+  ContentFlipV: 0
+  ContentAlign: 4
+  currentContentMode: 1
+  currentThresholdMode: 0
+  currentThreshold: 100
+  currentLabelingMode: 1
+  currentTemplateSize: 16
+  currentTemplateCountMax: 25
+  currentBorderSize: .25
+  currentPatternDetectionMode: 0
+  currentMatrixCodeType: 3
+  currentImageProcMode: 0
+  currentUseVideoBackground: 1
+  currentNFTMultiMode: 0
+  scrollPosition: {x: 0, y: 0}
+--- !u!114 &1766185131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1766185127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed68815202b64d4c956d71c0f176088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkerType: 0
+  Tag: 002_T-34
+  PatternFilenameIndex: 1
+  PatternFilename: 002_Tank
+  PatternContents: "  69  72  75  69  70  74  75  76  76  78  45 249 254 254 254 254\r\n
+    \ 75  75  74  74  75  75  75  77  78  78  39 247 254 254 254 254\r\n  73  77  74
+    \ 75  77  75  76  78  76  75  40 251 254 254 254 253\r\n  73  63  72  67  73  69
+    \ 67  64  69  67  40 249 252 252 254 252\r\n 213 205 209 217 224 202 224 222 227
+    222 213 158 146 140 150 139\r\n 253 254 253 254 252 250 252 252 253 252 254 113
+    \ 79  82  79  81\r\n 254 254 254 254 254 254 254 254 254 253 252 105  82  84  78
+    \ 74\r\n 254 254 254 254 254 254 254 254 254 254 251 114  81  81  76  70\r\n 254
+    254 254 254 254 254 254 254 254 253 253 119  78  75  74  72\r\n 254 254 254 254
+    254 254 254 254 254 253 253 131  82  75  71  76\r\n 254 254 254 254 254 254 254
+    254 254 253 248 164 122 127 115 119\r\n 254 254 254 254 254 254 254 254 254 254
+    254 253 254 254 254 254\r\n 253 254 254 254 254 254 254 254 254 254 254 254 254
+    254 254 254\r\n 253 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254\r\n
+    253 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254\r\n 252 254 254
+    254 254 254 254 254 254 254 254 254 254 254 254 254\r\n  69  71  73  73  73  73
+    \ 74  75  73  75  42 250 255 255 255 255\r\n  73  73  72  72  73  73  73  75  76
+    \ 77  39 247 255 255 255 255\r\n  71  74  72  72  74  73  74  76  77  78  43 252
+    255 255 255 255\r\n  68  69  68  64  68  69  69  73  69  72  39 249 254 254 255
+    255\r\n 204 207 210 208 218 206 219 212 220 220 209 154 143 133 137 132\r\n 255
+    255 254 255 255 254 255 255 255 255 255 108  76  81  80  76\r\n 255 255 255 255
+    255 255 255 255 255 255 254 103  75  79  79  76\r\n 255 255 255 255 255 255 255
+    255 255 255 255 117  74  77  76  74\r\n 255 255 255 255 255 255 255 255 255 255
+    255 119  76  79  77  75\r\n 255 255 255 255 255 255 255 255 255 255 255 129  78
+    \ 84  82  76\r\n 255 255 255 255 255 255 255 255 255 255 254 165 110 121 116 124\r\n
+    255 255 255 255 255 255 255 255 255 255 255 253 255 255 255 255\r\n 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255\r\n  61  64  64  63  64  66  66  67  69  71  39 249 255 255 255
+    255\r\n  64  64  63  63  64  64  64  66  70  71  32 245 255 255 255 255\r\n  65
+    \ 61  65  66  69  65  65  68  68  69  34 249 255 255 254 255\r\n  69  62  64  60
+    \ 63  62  61  61  61  65  31 240 253 252 254 255\r\n 197 202 206 189 210 206 217
+    206 214 219 203 145 138 126 125 127\r\n 254 254 252 254 253 252 254 253 254 255
+    254 105  68  72  74  74\r\n 255 255 255 255 255 255 255 255 255 255 253  96  65
+    \ 71  70  65\r\n 255 255 255 255 255 255 255 255 255 255 253 106  64  68  67  64\r\n
+    255 255 255 255 255 255 255 255 255 255 254 112  67  69  67  65\r\n 255 255 255
+    255 255 255 255 255 255 255 255 124  69  71  71  70\r\n 255 255 255 255 255 255
+    255 255 255 254 250 152  92 109 108 118\r\n 255 255 255 255 255 255 255 255 255
+    255 252 251 251 252 254 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n\r\n 254 254 253
+    252 139  81  74  70  72  76 119 254 254 254 254 254\r\n 254 254 254 254 150  79
+    \ 78  76  74  71 115 254 254 254 254 254\r\n 254 254 254 252 140  82  84  81  75
+    \ 75 127 254 254 254 254 254\r\n 254 254 254 252 146  79  82  81  78  82 122 254
+    254 254 254 254\r\n 249 247 251 249 158 113 105 114 119 131 164 253 254 254 254
+    254\r\n  45  39  40  40 213 254 252 251 253 253 248 254 254 254 254 254\r\n  78
+    \ 78  75  67 222 252 253 254 253 253 253 254 254 254 254 254\r\n  76  78  76  69
+    227 253 254 254 254 254 254 254 254 254 254 254\r\n  76  77  78  64 222 252 254
+    254 254 254 254 254 254 254 254 254\r\n  75  75  76  67 224 252 254 254 254 254
+    254 254 254 254 254 254\r\n  74  75  75  69 202 250 254 254 254 254 254 254 254
+    254 254 254\r\n  70  75  77  73 224 252 254 254 254 254 254 254 254 254 254 254\r\n
+    \ 69  74  75  67 217 254 254 254 254 254 254 254 254 254 254 254\r\n  75  74  74
+    \ 72 209 253 254 254 254 254 254 254 254 254 254 254\r\n  72  75  77  63 205 254
+    254 254 254 254 254 254 254 254 254 254\r\n  69  75  73  73 213 253 254 254 254
+    254 254 254 253 253 253 252\r\n 255 255 255 255 132  76  76  74  75  76 124 255
+    255 255 255 255\r\n 255 255 255 255 137  80  79  76  77  82 116 255 255 255 255
+    255\r\n 255 255 255 254 133  81  79  77  79  84 121 255 255 255 255 255\r\n 255
+    255 255 254 143  76  75  74  76  78 110 255 255 255 255 255\r\n 250 247 252 249
+    154 108 103 117 119 129 165 253 255 255 255 255\r\n  42  39  43  39 209 255 254
+    255 255 255 254 255 255 255 255 255\r\n  75  77  78  72 220 255 255 255 255 255
+    255 255 255 255 255 255\r\n  73  76  77  69 220 255 255 255 255 255 255 255 255
+    255 255 255\r\n  75  75  76  73 212 255 255 255 255 255 255 255 255 255 255 255\r\n
+    \ 74  73  74  69 219 255 255 255 255 255 255 255 255 255 255 255\r\n  73  73  73
+    \ 69 206 254 255 255 255 255 255 255 255 255 255 255\r\n  73  73  74  68 218 255
+    255 255 255 255 255 255 255 255 255 255\r\n  73  72  72  64 208 255 255 255 255
+    255 255 255 255 255 255 255\r\n  73  72  72  68 210 254 255 255 255 255 255 255
+    255 255 255 255\r\n  71  73  74  69 207 255 255 255 255 255 255 255 255 255 255
+    255\r\n  69  73  71  68 204 255 255 255 255 255 255 255 255 255 255 255\r\n 255
+    255 255 255 127  74  65  64  65  70 118 255 255 255 255 255\r\n 255 255 254 254
+    125  74  70  67  67  71 108 254 255 255 255 255\r\n 255 255 255 252 126  72  71
+    \ 68  69  71 109 252 255 255 255 255\r\n 255 255 255 253 138  68  65  64  67  69
+    \ 92 251 255 255 255 255\r\n 249 245 249 240 145 105  96 106 112 124 152 251 255
+    255 255 255\r\n  39  32  34  31 203 254 253 253 254 255 250 252 255 255 255 255\r\n
+    \ 71  71  69  65 219 255 255 255 255 255 254 255 255 255 255 255\r\n  69  70  68
+    \ 61 214 254 255 255 255 255 255 255 255 255 255 255\r\n  67  66  68  61 206 253
+    255 255 255 255 255 255 255 255 255 255\r\n  66  64  65  61 217 254 255 255 255
+    255 255 255 255 255 255 255\r\n  66  64  65  62 206 252 255 255 255 255 255 255
+    255 255 255 255\r\n  64  64  69  63 210 253 255 255 255 255 255 255 255 255 255
+    255\r\n  63  63  66  60 189 254 255 255 255 255 255 255 255 255 255 255\r\n  64
+    \ 63  65  64 206 252 255 255 255 255 255 255 255 255 255 255\r\n  64  64  61  62
+    202 254 255 255 255 255 255 255 255 255 255 255\r\n  61  64  65  69 197 254 255
+    255 255 255 255 255 255 255 255 255\r\n\r\n 254 254 254 254 254 254 254 254 254
+    254 254 254 254 254 254 252\r\n 254 254 254 254 254 254 254 254 254 254 254 254
+    254 254 254 253\r\n 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254
+    253\r\n 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254 253\r\n 254
+    254 254 254 253 254 254 254 254 254 254 254 254 254 254 254\r\n 119 115 127 122
+    164 248 253 254 254 254 254 254 254 254 254 254\r\n  76  71  75  82 131 253 253
+    254 254 254 254 254 254 254 254 254\r\n  72  74  75  78 119 253 253 254 254 254
+    254 254 254 254 254 254\r\n  70  76  81  81 114 251 254 254 254 254 254 254 254
+    254 254 254\r\n  74  78  84  82 105 252 253 254 254 254 254 254 254 254 254 254\r\n
+    \ 81  79  82  79 113 254 252 253 252 252 250 252 254 253 254 253\r\n 139 150 140
+    146 158 213 222 227 222 224 202 224 217 209 205 213\r\n 252 254 252 252 249  40
+    \ 67  69  64  67  69  73  67  72  63  73\r\n 253 254 254 254 251  40  75  76  78
+    \ 76  75  77  75  74  77  73\r\n 254 254 254 254 247  39  78  78  77  75  75  75
+    \ 74  74  75  75\r\n 254 254 254 254 249  45  78  76  76  75  74  70  69  75  72
+    \ 69\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 253 255 255 255 255 255
+    255 255 255 255 255 255\r\n 124 116 121 110 165 254 255 255 255 255 255 255 255
+    255 255 255\r\n  76  82  84  78 129 255 255 255 255 255 255 255 255 255 255 255\r\n
+    \ 75  77  79  76 119 255 255 255 255 255 255 255 255 255 255 255\r\n  74  76  77
+    \ 74 117 255 255 255 255 255 255 255 255 255 255 255\r\n  76  79  79  75 103 254
+    255 255 255 255 255 255 255 255 255 255\r\n  76  80  81  76 108 255 255 255 255
+    255 254 255 255 254 255 255\r\n 132 137 133 143 154 209 220 220 212 219 206 218
+    208 210 207 204\r\n 255 255 254 254 249  39  72  69  73  69  69  68  64  68  69
+    \ 68\r\n 255 255 255 255 252  43  78  77  76  74  73  74  72  72  74  71\r\n 255
+    255 255 255 247  39  77  76  75  73  73  73  72  72  73  73\r\n 255 255 255 255
+    250  42  75  73  75  74  73  73  73  73  71  69\r\n 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n
+    255 254 252 251 251 252 255 255 255 255 255 255 255 255 255 255\r\n 118 108 109
+    \ 92 152 250 254 255 255 255 255 255 255 255 255 255\r\n  70  71  71  69 124 255
+    255 255 255 255 255 255 255 255 255 255\r\n  65  67  69  67 112 254 255 255 255
+    255 255 255 255 255 255 255\r\n  64  67  68  64 106 253 255 255 255 255 255 255
+    255 255 255 255\r\n  65  70  71  65  96 253 255 255 255 255 255 255 255 255 255
+    255\r\n  74  74  72  68 105 254 255 254 253 254 252 253 254 252 254 254\r\n 127
+    125 126 138 145 203 219 214 206 217 206 210 189 206 202 197\r\n 255 254 252 253
+    240  31  65  61  61  61  62  63  60  64  62  69\r\n 255 254 255 255 249  34  69
+    \ 68  68  65  65  69  66  65  61  65\r\n 255 255 255 255 245  32  71  70  66  64
+    \ 64  64  63  63  64  64\r\n 255 255 255 255 249  39  71  69  67  66  66  64  63
+    \ 64  64  61\r\n\r\n 252 253 253 253 254 254 254 254 254 254 253 213  73  73  75
+    \ 69\r\n 254 254 254 254 254 254 254 254 254 254 254 205  63  77  75  72\r\n 254
+    254 254 254 254 254 254 254 254 254 253 209  72  74  74  75\r\n 254 254 254 254
+    254 254 254 254 254 254 254 217  67  75  74  69\r\n 254 254 254 254 254 254 254
+    254 254 254 252 224  73  77  75  70\r\n 254 254 254 254 254 254 254 254 254 254
+    250 202  69  75  75  74\r\n 254 254 254 254 254 254 254 254 254 254 252 224  67
+    \ 76  75  75\r\n 254 254 254 254 254 254 254 254 254 254 252 222  64  78  77  76\r\n
+    254 254 254 254 254 254 254 254 254 254 253 227  69  76  78  76\r\n 254 254 254
+    254 254 253 253 253 254 253 252 222  67  75  78  78\r\n 254 254 254 254 254 248
+    253 253 251 252 254 213  40  40  39  45\r\n 254 254 254 254 253 164 131 119 114
+    105 113 158 249 251 247 249\r\n 254 254 254 254 254 122  82  78  81  82  79 146
+    252 254 254 254\r\n 254 254 254 254 254 127  75  75  81  84  82 140 252 254 254
+    254\r\n 254 254 254 254 254 115  71  74  76  78  79 150 254 254 254 254\r\n 254
+    254 254 254 254 119  76  72  70  74  81 139 252 253 254 254\r\n 255 255 255 255
+    255 255 255 255 255 255 255 204  68  71  73  69\r\n 255 255 255 255 255 255 255
+    255 255 255 255 207  69  74  73  71\r\n 255 255 255 255 255 255 255 255 255 255
+    254 210  68  72  72  73\r\n 255 255 255 255 255 255 255 255 255 255 255 208  64
+    \ 72  72  73\r\n 255 255 255 255 255 255 255 255 255 255 255 218  68  74  73  73\r\n
+    255 255 255 255 255 255 255 255 255 255 254 206  69  73  73  73\r\n 255 255 255
+    255 255 255 255 255 255 255 255 219  69  74  73  74\r\n 255 255 255 255 255 255
+    255 255 255 255 255 212  73  76  75  75\r\n 255 255 255 255 255 255 255 255 255
+    255 255 220  69  77  76  73\r\n 255 255 255 255 255 255 255 255 255 255 255 220
+    \ 72  78  77  75\r\n 255 255 255 255 255 254 255 255 255 254 255 209  39  43  39
+    \ 42\r\n 255 255 255 255 253 165 129 119 117 103 108 154 249 252 247 250\r\n 255
+    255 255 255 255 110  78  76  74  75  76 143 254 255 255 255\r\n 255 255 255 255
+    255 121  84  79  77  79  81 133 254 255 255 255\r\n 255 255 255 255 255 116  82
+    \ 77  76  79  80 137 255 255 255 255\r\n 255 255 255 255 255 124  76  75  74  76
+    \ 76 132 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 254 197  69
+    \ 65  64  61\r\n 255 255 255 255 255 255 255 255 255 255 254 202  62  61  64  64\r\n
+    255 255 255 255 255 255 255 255 255 255 252 206  64  65  63  64\r\n 255 255 255
+    255 255 255 255 255 255 255 254 189  60  66  63  63\r\n 255 255 255 255 255 255
+    255 255 255 255 253 210  63  69  64  64\r\n 255 255 255 255 255 255 255 255 255
+    255 252 206  62  65  64  66\r\n 255 255 255 255 255 255 255 255 255 255 254 217
+    \ 61  65  64  66\r\n 255 255 255 255 255 255 255 255 255 255 253 206  61  68  66
+    \ 67\r\n 255 255 255 255 255 255 255 255 255 255 254 214  61  68  70  69\r\n 255
+    255 255 255 255 254 255 255 255 255 255 219  65  69  71  71\r\n 255 255 255 255
+    252 250 255 254 253 253 254 203  31  34  32  39\r\n 255 255 255 255 251 152 124
+    112 106  96 105 145 240 249 245 249\r\n 255 255 255 255 251  92  69  67  64  65
+    \ 68 138 253 255 255 255\r\n 255 255 255 255 252 109  71  69  68  71  72 126 252
+    255 255 255\r\n 255 255 255 255 254 108  71  67  67  70  74 125 254 254 255 255\r\n
+    255 255 255 255 255 118  70  65  64  65  74 127 255 255 255 255\r\n\r\n"
+  PatternWidth: .0799999982
+  BarcodeID: 0
+  MultiConfigFile: 
+  NFTDataName: 
+  currentUseContPoseEstimation: 0
+  currentFiltered: 0
+  currentFilterSampleRate: 30
+  currentFilterCutoffFreq: 15
+  currentNFTScale: 1
+--- !u!114 &1766185132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1766185127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed68815202b64d4c956d71c0f176088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkerType: 0
+  Tag: 003_Bread
+  PatternFilenameIndex: 2
+  PatternFilename: 003_Bread
+  PatternContents: "  77  78  78  78  81  83  80  80  82  81  74 105 253 254 254 254\r\n
+    \ 80  81  82  75  75  75  77  81  83  81  76 105 253 253 254 254\r\n  74  77  76
+    \ 75  76  79  81  83  80  78  80 119 253 253 254 254\r\n  86  82  76  73  77  81
+    \ 83  82  81  79  76 109 254 254 254 254\r\n  82  85  81  76  76  76  76  79  79
+    \ 80  75 101 254 254 254 254\r\n  79  88  86  74  76  77  77  79  80  82  79 102
+    254 252 253 254\r\n  79  80  80  80  80  80  80  77  78  82  80  93 254 252 253
+    254\r\n  83  80  81  80  79  79  80  80  85  85  84  99 254 253 253 254\r\n  79
+    \ 88  88  84  82  81  81  82  85  86  88  88 255 253 252 254\r\n  81  93  89  82
+    \ 83  87  85  86  88  89  89  87 253 254 252 254\r\n  95  96  86 118  95 100  95
+    120 111 109 110 123 254 254 252 253\r\n 252 252 254 254 252 253 253 251 249 254
+    254 254 254 254 253 253\r\n 250 252 254 254 254 254 251 254 254 254 254 254 254
+    254 254 254\r\n 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254\r\n
+    254 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254\r\n 254 254 254
+    254 254 254 254 254 254 254 254 254 254 254 254 254\r\n  75  77  77  77  77  78
+    \ 77  78  79  80  76 108 253 255 255 255\r\n  74  76  77  77  77  77  76  77  79
+    \ 79  78 106 254 255 255 255\r\n  75  76  78  78  78  77  76  76  78  81  75 118
+    255 255 255 255\r\n  76  76  78  79  80  77  76  76  78  82  76 110 255 255 255
+    255\r\n  76  77  80  80  80  80  80  80  80  82  77 102 255 255 255 255\r\n  75
+    \ 77  81  82  79  79  79  80  82  84  79  99 255 255 255 255\r\n  77  79  80  79
+    \ 79  79  79  78  80  84  80  90 254 255 255 255\r\n  77  79  80  81  80  81  82
+    \ 81  83  83  83  94 253 255 255 255\r\n  79  76  81  83  84  85  84  83  83  85
+    \ 87  83 255 255 255 255\r\n  84  86  86  85  87  85  83  84  87  87  87  83 253
+    255 255 255\r\n  83  97  77 107  93  99  87 103  99  97  98 113 254 255 255 255\r\n
+    255 254 254 255 254 253 253 254 253 254 254 253 254 255 255 255\r\n 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255\r\n  66  68  69  69  67  64  68  71  73  73  67 101 249 254 255
+    255\r\n  66  68  69  72  72  72  72  73  75  74  69  99 252 254 255 255\r\n  66
+    \ 67  69  71  71  70  70  73  73  76  71 115 254 254 255 255\r\n  69  69  69  69
+    \ 70  69  69  73  74  77  71 106 254 255 255 255\r\n  68  68  70  70  70  70  70
+    \ 75  75  77  72 100 254 254 255 255\r\n  66  67  71  70  70  70  70  74  77  79
+    \ 73  92 250 251 254 255\r\n  68  67  68  68  70  70  70  72  75  79  74  83 251
+    253 254 255\r\n  68  68  69  67  70  71  73  72  75  75  74  91 252 255 255 255\r\n
+    \ 71  73  74  73  75  75  75  74  75  76  78  79 253 255 255 255\r\n  70  64  79
+    \ 80  77  76  75  76  78  78  78  78 250 255 255 255\r\n  68  85  68  93  80  90
+    \ 76  83  91  91  86 101 252 254 255 255\r\n 254 254 251 255 254 252 250 249 251
+    252 248 246 252 255 255 255\r\n 255 255 255 255 255 253 254 254 254 255 255 255
+    255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n\r\n 254 254 254
+    254 254 254 254 254 254 254 253 253 254 254 254 254\r\n 254 254 254 254 254 253
+    253 253 252 252 252 253 254 254 254 254\r\n 254 253 253 254 254 252 252 253 253
+    254 254 254 254 254 254 254\r\n 253 253 253 254 254 254 254 254 255 253 254 254
+    254 254 254 254\r\n 105 105 119 109 101 102  93  99  88  87 123 254 254 254 254
+    254\r\n  74  76  80  76  75  79  80  84  88  89 110 254 254 254 254 254\r\n  81
+    \ 81  78  79  80  82  82  85  86  89 109 254 254 254 254 254\r\n  82  83  80  81
+    \ 79  80  78  85  85  88 111 249 254 254 254 254\r\n  80  81  83  82  79  79  77
+    \ 80  82  86 120 251 254 254 254 254\r\n  80  77  81  83  76  77  80  80  81  85
+    \ 95 253 251 254 254 254\r\n  83  75  79  81  76  77  80  79  81  87 100 253 254
+    254 254 254\r\n  81  75  76  77  76  76  80  79  82  83  95 252 254 254 254 254\r\n
+    \ 78  75  75  73  76  74  80  80  84  82 118 254 254 254 254 254\r\n  78  82  76
+    \ 76  81  86  80  81  88  89  86 254 254 254 254 254\r\n  78  81  77  82  85  88
+    \ 80  80  88  93  96 252 252 254 254 254\r\n  77  80  74  86  82  79  79  83  79
+    \ 81  95 252 250 254 254 254\r\n 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 253
+    254 255 255 255 255 254 253 255 253 254 254 255 255 255 255\r\n 108 106 118 110
+    102  99  90  94  83  83 113 253 255 255 255 255\r\n  76  78  75  76  77  79  80
+    \ 83  87  87  98 254 255 255 255 255\r\n  80  79  81  82  82  84  84  83  85  87
+    \ 97 254 255 255 255 255\r\n  79  79  78  78  80  82  80  83  83  87  99 253 255
+    255 255 255\r\n  78  77  76  76  80  80  78  81  83  84 103 254 255 255 255 255\r\n
+    \ 77  76  76  76  80  79  79  82  84  83  87 253 255 255 255 255\r\n  78  77  77
+    \ 77  80  79  79  81  85  85  99 253 255 255 255 255\r\n  77  77  78  80  80  79
+    \ 79  80  84  87  93 254 255 255 255 255\r\n  77  77  78  79  80  82  79  81  83
+    \ 85 107 255 255 255 255 255\r\n  77  77  78  78  80  81  80  80  81  86  77 254
+    255 255 255 255\r\n  77  76  76  76  77  77  79  79  76  86  97 254 255 255 255
+    255\r\n  75  74  75  76  76  75  77  77  79  84  83 255 255 255 255 255\r\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255
+    255 254 254 255 255 255 255 255 255 255 255 255\r\n 254 254 254 255 254 251 253
+    255 255 255 254 255 255 255 255 255\r\n 249 252 254 254 254 250 251 252 253 250
+    252 252 255 255 255 255\r\n 101  99 115 106 100  92  83  91  79  78 101 246 255
+    255 255 255\r\n  67  69  71  71  72  73  74  74  78  78  86 248 255 255 255 255\r\n
+    \ 73  74  76  77  77  79  79  75  76  78  91 252 255 255 255 255\r\n  73  75  73
+    \ 74  75  77  75  75  75  78  91 251 254 255 255 255\r\n  71  73  73  73  75  74
+    \ 72  72  74  76  83 249 254 255 255 255\r\n  68  72  70  69  70  70  70  73  75
+    \ 75  76 250 254 255 255 255\r\n  64  72  70  69  70  70  70  71  75  76  90 252
+    253 255 255 255\r\n  67  72  71  70  70  70  70  70  75  77  80 254 255 255 255
+    255\r\n  69  72  71  69  70  70  68  67  73  80  93 255 255 255 255 255\r\n  69
+    \ 69  69  69  70  71  68  69  74  79  68 251 255 255 255 255\r\n  68  68  67  69
+    \ 68  67  67  68  73  64  85 254 255 255 255 255\r\n  66  66  66  69  68  66  68
+    \ 68  71  70  68 254 255 255 255 255\r\n\r\n 254 254 254 254 254 254 254 254 254
+    254 254 254 254 254 254 254\r\n 254 254 254 254 254 254 254 254 254 254 254 254
+    254 254 254 254\r\n 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254
+    254\r\n 254 254 254 254 254 254 254 254 254 251 254 254 254 254 252 250\r\n 253
+    253 254 254 254 254 254 249 251 253 253 252 254 254 252 252\r\n 253 252 254 254
+    123 110 109 111 120  95 100  95 118  86  96  95\r\n 254 252 254 253  87  89  89
+    \ 88  86  85  87  83  82  89  93  81\r\n 254 252 253 255  88  88  86  85  82  81
+    \ 81  82  84  88  88  79\r\n 254 253 253 254  99  84  85  85  80  80  79  79  80
+    \ 81  80  83\r\n 254 253 252 254  93  80  82  78  77  80  80  80  80  80  80  79\r\n
+    254 253 252 254 102  79  82  80  79  77  77  76  74  86  88  79\r\n 254 254 254
+    254 101  75  80  79  79  76  76  76  76  81  85  82\r\n 254 254 254 254 109  76
+    \ 79  81  82  83  81  77  73  76  82  86\r\n 254 254 253 253 119  80  78  80  83
+    \ 81  79  76  75  76  77  74\r\n 254 254 253 253 105  76  81  83  81  77  75  75
+    \ 75  82  81  80\r\n 254 254 254 253 105  74  81  82  80  80  83  81  78  78  78
+    \ 77\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255\r\n 255 255 255 254 253 254 254 253 254 253
+    253 254 255 254 254 255\r\n 255 255 255 254 113  98  97  99 103  87  99  93 107
+    \ 77  97  83\r\n 255 255 255 253  83  87  87  87  84  83  85  87  85  86  86  84\r\n
+    255 255 255 255  83  87  85  83  83  84  85  84  83  81  76  79\r\n 255 255 255
+    253  94  83  83  83  81  82  81  80  81  80  79  77\r\n 255 255 255 254  90  80
+    \ 84  80  78  79  79  79  79  80  79  77\r\n 255 255 255 255  99  79  84  82  80
+    \ 79  79  79  82  81  77  75\r\n 255 255 255 255 102  77  82  80  80  80  80  80
+    \ 80  80  77  76\r\n 255 255 255 255 110  76  82  78  76  76  77  80  79  78  76
+    \ 76\r\n 255 255 255 255 118  75  81  78  76  76  77  78  78  78  76  75\r\n 255
+    255 255 254 106  78  79  79  77  76  77  77  77  77  76  74\r\n 255 255 255 253
+    108  76  80  79  78  77  78  77  77  77  77  75\r\n 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255\r\n 255 255 255 255 255 255 255 254 254 254 253 255 255 255 255 255\r\n
+    255 255 255 252 246 248 252 251 249 250 252 254 255 251 254 254\r\n 255 255 254
+    252 101  86  91  91  83  76  90  80  93  68  85  68\r\n 255 255 255 250  78  78
+    \ 78  78  76  75  76  77  80  79  64  70\r\n 255 255 255 253  79  78  76  75  74
+    \ 75  75  75  73  74  73  71\r\n 255 255 255 252  91  74  75  75  72  73  71  70
+    \ 67  69  68  68\r\n 255 254 253 251  83  74  79  75  72  70  70  70  68  68  67
+    \ 68\r\n 255 254 251 250  92  73  79  77  74  70  70  70  70  71  67  66\r\n 255
+    255 254 254 100  72  77  75  75  70  70  70  70  70  68  68\r\n 255 255 255 254
+    106  71  77  74  73  69  69  70  69  69  69  69\r\n 255 255 254 254 115  71  76
+    \ 73  73  70  70  71  71  69  67  66\r\n 255 255 254 252  99  69  74  75  73  72
+    \ 72  72  72  69  68  66\r\n 255 255 254 249 101  67  73  73  71  68  64  67  69
+    \ 69  68  66\r\n\r\n 254 254 254 250 252  95  81  79  83  79  79  82  86  74  80
+    \ 77\r\n 254 254 254 252 252  96  93  88  80  80  88  85  82  77  81  78\r\n 254
+    254 254 254 254  86  89  88  81  80  86  81  76  76  82  78\r\n 254 254 254 254
+    254 118  82  84  80  80  74  76  73  75  75  78\r\n 254 254 254 254 252  95  83
+    \ 82  79  80  76  76  77  76  75  81\r\n 254 254 254 254 253 100  87  81  79  80
+    \ 77  76  81  79  75  83\r\n 254 254 254 251 253  95  85  81  80  80  77  76  83
+    \ 81  77  80\r\n 254 254 254 254 251 120  86  82  80  77  79  79  82  83  81  80\r\n
+    254 254 254 254 249 111  88  85  85  78  80  79  81  80  83  82\r\n 254 254 254
+    254 254 109  89  86  85  82  82  80  79  78  81  81\r\n 254 254 254 254 254 110
+    \ 89  88  84  80  79  75  76  80  76  74\r\n 254 254 254 254 254 123  87  88  99
+    \ 93 102 101 109 119 105 105\r\n 254 254 254 254 254 254 253 255 254 254 254 254
+    254 253 253 253\r\n 254 254 254 254 254 254 254 253 253 252 252 254 254 253 253
+    254\r\n 254 254 254 254 253 252 252 252 253 253 253 254 254 254 254 254\r\n 254
+    254 254 254 253 253 254 254 254 254 254 254 254 254 254 254\r\n 255 255 255 255
+    255  83  84  79  77  77  75  76  76  75  74  75\r\n 255 255 255 255 254  97  86
+    \ 76  79  79  77  77  76  76  76  77\r\n 255 255 255 255 254  77  86  81  80  80
+    \ 81  80  78  78  77  77\r\n 255 255 255 255 255 107  85  83  81  79  82  80  79
+    \ 78  77  77\r\n 255 255 255 255 254  93  87  84  80  79  79  80  80  78  77  77\r\n
+    255 255 255 255 253  99  85  85  81  79  79  80  77  77  77  78\r\n 255 255 255
+    255 253  87  83  84  82  79  79  80  76  76  76  77\r\n 255 255 255 255 254 103
+    \ 84  83  81  78  80  80  76  76  77  78\r\n 255 255 255 255 253  99  87  83  83
+    \ 80  82  80  78  78  79  79\r\n 255 255 255 255 254  97  87  85  83  84  84  82
+    \ 82  81  79  80\r\n 255 255 255 255 254  98  87  87  83  80  79  77  76  75  78
+    \ 76\r\n 255 255 255 255 253 113  83  83  94  90  99 102 110 118 106 108\r\n 255
+    255 255 255 254 254 253 255 253 254 255 255 255 255 254 253\r\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255\r\n 255 255 255 255 254  68  70  71  68  68  66  68  69
+    \ 66  66  66\r\n 255 255 255 255 254  85  64  73  68  67  67  68  69  67  68  68\r\n
+    255 255 255 255 251  68  79  74  69  68  71  70  69  69  69  69\r\n 255 255 255
+    255 255  93  80  73  67  68  70  70  69  71  72  69\r\n 255 255 255 255 254  80
+    \ 77  75  70  70  70  70  70  71  72  67\r\n 255 255 255 253 252  90  76  75  71
+    \ 70  70  70  69  70  72  64\r\n 255 255 255 254 250  76  75  75  73  70  70  70
+    \ 69  70  72  68\r\n 255 255 255 254 249  83  76  74  72  72  74  75  73  73  73
+    \ 71\r\n 255 255 255 254 251  91  78  75  75  75  77  75  74  73  75  73\r\n 255
+    255 255 255 252  91  78  76  75  79  79  77  77  76  74  73\r\n 255 255 255 255
+    248  86  78  78  74  74  73  72  71  71  69  67\r\n 255 255 255 255 246 101  78
+    \ 79  91  83  92 100 106 115  99 101\r\n 255 255 255 255 252 252 250 253 252 251
+    250 254 254 254 252 249\r\n 255 255 255 255 255 254 255 255 255 253 251 254 255
+    254 254 254\r\n 255 255 255 255 255 255 255 255 255 254 254 255 255 255 255 255\r\n
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n\r\n"
+  PatternWidth: .0799999982
+  BarcodeID: 0
+  MultiConfigFile: 
+  NFTDataName: 
+  currentUseContPoseEstimation: 0
+  currentFiltered: 0
+  currentFilterSampleRate: 30
+  currentFilterCutoffFreq: 15
+  currentNFTScale: 1
+--- !u!114 &1766185133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1766185127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed68815202b64d4c956d71c0f176088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkerType: 0
+  Tag: 004_Burrels
+  PatternFilenameIndex: 3
+  PatternFilename: 004_Burrels
+  PatternContents: "  84  84  88  59 177 253 254 254 254 254 254 254 254 254 254 253\r\n
+    \ 83  83  86  62 193 254 254 254 254 254 254 254 254 254 254 253\r\n  82  83  85
+    \ 55 174 254 254 254 254 254 254 254 254 254 254 254\r\n  81  82  85  62 176 253
+    254 254 254 254 254 254 254 254 254 254\r\n  77  77  83  59 194 254 254 254 254
+    253 253 225 226 217 214 221\r\n  84  85  87  56 181 254 254 254 254 252 254 105
+    \ 95  99  97  96\r\n  81  81  84  59 183 255 254 254 254 254 254 119  95  92  91
+    \ 93\r\n  85  84  83  60 194 255 254 254 254 254 253 112  93  91  90  93\r\n  84
+    \ 83  86  60 181 254 253 254 254 254 253 109  90  92  91  92\r\n  84  84  86  63
+    172 254 252 254 254 254 250 107  94  92  94  93\r\n  67  76  80  60 182 254 252
+    254 254 254 248 126  90  88  93  95\r\n 225 240 223 222 240 254 252 254 254 254
+    253 243 246 240 250 247\r\n 250 252 251 253 254 254 254 254 254 254 254 254 254
+    254 248 252\r\n 253 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254\r\n
+    252 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254\r\n 252 254 254
+    254 254 254 254 254 254 254 254 254 254 254 254 254\r\n  87  87  89  60 178 254
+    255 255 255 255 255 255 255 255 255 255\r\n  85  85  89  65 195 254 255 255 255
+    255 255 255 255 255 255 255\r\n  84  85  89  59 176 254 255 255 255 255 255 255
+    255 255 255 255\r\n  83  84  88  66 177 254 255 255 255 255 255 255 255 255 255
+    255\r\n  84  86  87  61 195 254 255 255 255 254 254 226 226 223 213 220\r\n  83
+    \ 84  88  59 183 254 255 255 255 254 255  99  86  89  90  93\r\n  84  84  88  64
+    184 255 255 255 255 254 254 116  90  94  95  96\r\n  83  85  88  64 196 255 255
+    255 255 255 254 112  91  93  93  96\r\n  86  88  88  62 183 255 255 255 255 255
+    253 111  94  96  95  95\r\n  90  91  92  63 171 255 255 255 255 255 253 111  95
+    \ 95  97  96\r\n  77  82  81  61 180 255 255 255 255 255 254 125  83  85  91  93\r\n
+    226 234 220 226 238 254 255 255 255 255 254 243 248 243 250 249\r\n 255 255 254
+    255 254 255 255 255 255 255 255 255 255 255 254 255\r\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255\r\n  78  79  78  49 170 251 255 255 255 255 255 255 255 255 255
+    255\r\n  80  80  80  56 187 253 255 255 255 255 255 255 255 255 255 255\r\n  79
+    \ 80  78  49 171 253 255 255 255 255 255 255 255 255 255 255\r\n  78  79  79  55
+    173 252 255 255 255 255 255 255 255 255 255 255\r\n  75  76  80  56 193 253 255
+    255 255 254 254 223 221 220 210 217\r\n  75  75  79  50 177 254 255 255 255 252
+    251  86  72  80  80  82\r\n  75  75  77  50 178 255 255 255 255 254 253 107  78
+    \ 84  85  86\r\n  75  76  78  53 191 255 255 255 255 255 253 104  79  83  84  86\r\n
+    \ 77  78  79  52 176 254 255 255 255 255 252 104  81  84  85  85\r\n  79  81  82
+    \ 51 163 253 255 255 255 255 251  98  81  86  88  86\r\n  66  70  69  53 175 253
+    255 255 255 255 252 111  67  78  77  80\r\n 222 225 212 222 236 254 255 255 255
+    255 253 240 245 239 240 246\r\n 251 254 254 253 254 255 255 255 255 255 255 255
+    254 254 251 253\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n\r\n 253 253 254
+    254 221  96  93  93  92  93  95 247 252 254 254 254\r\n 254 254 254 254 214  97
+    \ 91  90  91  94  93 250 248 254 254 254\r\n 254 254 254 254 217  99  92  91  92
+    \ 92  88 240 254 254 254 254\r\n 254 254 254 254 226  95  95  93  90  94  90 246
+    254 254 254 254\r\n 254 254 254 254 225 105 119 112 109 107 126 243 254 254 254
+    254\r\n 254 254 254 254 253 254 254 253 253 250 248 253 254 254 254 254\r\n 254
+    254 254 254 253 252 254 254 254 254 254 254 254 254 254 254\r\n 254 254 254 254
+    254 254 254 254 254 254 254 254 254 254 254 254\r\n 254 254 254 254 254 254 254
+    254 254 254 254 254 254 254 254 254\r\n 254 254 254 254 254 254 254 254 253 252
+    252 252 254 254 254 254\r\n 253 254 254 253 254 254 255 255 254 254 254 254 254
+    254 254 254\r\n 177 193 174 176 194 181 183 194 181 172 182 240 254 254 254 254\r\n
+    \ 59  62  55  62  59  56  59  60  60  63  60 222 253 254 254 254\r\n  88  86  85
+    \ 85  83  87  84  83  86  86  80 223 251 254 254 254\r\n  84  83  83  82  77  85
+    \ 81  84  83  84  76 240 252 254 254 254\r\n  84  83  82  81  77  84  81  85  84
+    \ 84  67 225 250 253 252 252\r\n 255 255 255 255 220  93  96  96  95  96  93 249
+    255 255 255 255\r\n 255 255 255 255 213  90  95  93  95  97  91 250 254 255 255
+    255\r\n 255 255 255 255 223  89  94  93  96  95  85 243 255 255 255 255\r\n 255
+    255 255 255 226  86  90  91  94  95  83 248 255 255 255 255\r\n 255 255 255 255
+    226  99 116 112 111 111 125 243 255 255 255 255\r\n 255 255 255 255 254 255 254
+    254 253 253 254 254 255 255 255 255\r\n 255 255 255 255 254 254 254 255 255 255
+    255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 254 254 254
+    254 254 254 255 255 255 255 255 254 255 255 255 255\r\n 178 195 176 177 195 183
+    184 196 183 171 180 238 254 255 255 255\r\n  60  65  59  66  61  59  64  64  62
+    \ 63  61 226 255 255 255 255\r\n  89  89  89  88  87  88  88  88  88  92  81 220
+    254 255 255 255\r\n  87  85  85  84  86  84  84  85  88  91  82 234 255 255 255
+    255\r\n  87  85  84  83  84  83  84  83  86  90  77 226 255 255 255 255\r\n 255
+    255 255 255 217  82  86  86  85  86  80 246 253 255 255 255\r\n 255 255 255 255
+    210  80  85  84  85  88  77 240 251 255 255 255\r\n 255 255 255 255 220  80  84
+    \ 83  84  86  78 239 254 255 255 255\r\n 255 255 255 255 221  72  78  79  81  81
+    \ 67 245 254 255 255 255\r\n 255 255 255 255 223  86 107 104 104  98 111 240 255
+    255 255 255\r\n 255 255 255 255 254 251 253 253 252 251 252 253 255 255 255 255\r\n
+    255 255 255 255 254 252 254 255 255 255 255 255 255 255 255 255\r\n 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\r\n 251 253 253 252 253 254 255 255 254 253 253 254
+    255 255 255 255\r\n 170 187 171 173 193 177 178 191 176 163 175 236 254 255 255
+    255\r\n  49  56  49  55  56  50  50  53  52  51  53 222 253 255 255 255\r\n  78
+    \ 80  78  79  80  79  77  78  79  82  69 212 254 255 255 255\r\n  79  80  80  79
+    \ 76  75  75  76  78  81  70 225 254 255 255 255\r\n  78  80  79  78  75  75  75
+    \ 75  77  79  66 222 251 255 255 255\r\n\r\n 254 254 254 254 254 254 254 254 254
+    254 254 254 254 254 254 252\r\n 254 254 254 254 254 254 254 254 254 254 254 254
+    254 254 254 252\r\n 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254
+    253\r\n 252 248 254 254 254 254 254 254 254 254 254 254 253 251 252 250\r\n 247
+    250 240 246 243 253 254 254 254 252 254 240 222 223 240 225\r\n  95  93  88  90
+    126 248 254 254 254 252 254 182  60  80  76  67\r\n  93  94  92  94 107 250 254
+    254 254 252 254 172  63  86  84  84\r\n  92  91  92  90 109 253 254 254 254 253
+    254 181  60  86  83  84\r\n  93  90  91  93 112 253 254 254 254 254 255 194  60
+    \ 83  84  85\r\n  93  91  92  95 119 254 254 254 254 254 255 183  59  84  81  81\r\n
+    \ 96  97  99  95 105 254 252 254 254 254 254 181  56  87  85  84\r\n 221 214 217
+    226 225 253 253 254 254 254 254 194  59  83  77  77\r\n 254 254 254 254 254 254
+    254 254 254 254 253 176  62  85  82  81\r\n 254 254 254 254 254 254 254 254 254
+    254 254 174  55  85  83  82\r\n 253 254 254 254 254 254 254 254 254 254 254 193
+    \ 62  86  83  83\r\n 253 254 254 254 254 254 254 254 254 254 253 177  59  88  84
+    \ 84\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 254 255 255 255 255 255
+    255 255 255 255 254 255 254 255 255\r\n 249 250 243 248 243 254 255 255 255 255
+    254 238 226 220 234 226\r\n  93  91  85  83 125 254 255 255 255 255 255 180  61
+    \ 81  82  77\r\n  96  97  95  95 111 253 255 255 255 255 255 171  63  92  91  90\r\n
+    \ 95  95  96  94 111 253 255 255 255 255 255 183  62  88  88  86\r\n  96  93  93
+    \ 91 112 254 255 255 255 255 255 196  64  88  85  83\r\n  96  95  94  90 116 254
+    254 255 255 255 255 184  64  88  84  84\r\n  93  90  89  86  99 255 254 255 255
+    255 254 183  59  88  84  83\r\n 220 213 223 226 226 254 254 255 255 255 254 195
+    \ 61  87  86  84\r\n 255 255 255 255 255 255 255 255 255 255 254 177  66  88  84
+    \ 83\r\n 255 255 255 255 255 255 255 255 255 255 254 176  59  89  85  84\r\n 255
+    255 255 255 255 255 255 255 255 255 254 195  65  89  85  85\r\n 255 255 255 255
+    255 255 255 255 255 255 254 178  60  89  87  87\r\n 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255\r\n 253 251 254 254 255 255 255 255 255 255 255 254 253 254 254 251\r\n
+    246 240 239 245 240 253 255 255 255 255 254 236 222 212 225 222\r\n  80  77  78
+    \ 67 111 252 255 255 255 255 253 175  53  69  70  66\r\n  86  88  86  81  98 251
+    255 255 255 255 253 163  51  82  81  79\r\n  85  85  84  81 104 252 255 255 255
+    255 254 176  52  79  78  77\r\n  86  84  83  79 104 253 255 255 255 255 255 191
+    \ 53  78  76  75\r\n  86  85  84  78 107 253 254 255 255 255 255 178  50  77  75
+    \ 75\r\n  82  80  80  72  86 251 252 255 255 255 254 177  50  79  75  75\r\n 217
+    210 220 221 223 254 254 255 255 255 253 193  56  80  76  75\r\n 255 255 255 255
+    255 255 255 255 255 255 252 173  55  79  79  78\r\n 255 255 255 255 255 255 255
+    255 255 255 253 171  49  78  80  79\r\n 255 255 255 255 255 255 255 255 255 255
+    253 187  56  80  80  80\r\n 255 255 255 255 255 255 255 255 255 255 251 170  49
+    \ 78  79  78\r\n\r\n 252 252 253 250 225  67  84  84  85  81  84  77  81  82  83
+    \ 84\r\n 254 254 254 252 240  76  84  83  84  81  85  77  82  83  83  84\r\n 254
+    254 254 251 223  80  86  86  83  84  87  83  85  85  86  88\r\n 254 254 254 253
+    222  60  63  60  60  59  56  59  62  55  62  59\r\n 254 254 254 254 240 182 172
+    181 194 183 181 194 176 174 193 177\r\n 254 254 254 254 254 254 254 254 255 255
+    254 254 253 254 254 253\r\n 254 254 254 254 252 252 252 253 254 254 254 254 254
+    254 254 254\r\n 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254\r\n
+    254 254 254 254 254 254 254 254 254 254 254 254 254 254 254 254\r\n 254 254 254
+    254 254 254 254 254 254 254 252 253 254 254 254 254\r\n 254 254 254 254 253 248
+    250 253 253 254 254 253 254 254 254 254\r\n 254 254 254 254 243 126 107 109 112
+    119 105 225 254 254 254 254\r\n 254 254 254 254 246  90  94  90  93  95  95 226
+    254 254 254 254\r\n 254 254 254 254 240  88  92  92  91  92  99 217 254 254 254
+    254\r\n 254 254 254 248 250  93  94  91  90  91  97 214 254 254 254 254\r\n 254
+    254 254 252 247  95  93  92  93  93  96 221 254 254 253 253\r\n 255 255 255 255
+    226  77  90  86  83  84  83  84  83  84  85  87\r\n 255 255 255 255 234  82  91
+    \ 88  85  84  84  86  84  85  85  87\r\n 255 255 255 254 220  81  92  88  88  88
+    \ 88  87  88  89  89  89\r\n 255 255 255 255 226  61  63  62  64  64  59  61  66
+    \ 59  65  60\r\n 255 255 255 254 238 180 171 183 196 184 183 195 177 176 195 178\r\n
+    255 255 255 255 254 255 255 255 255 255 254 254 254 254 254 254\r\n 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 254 254 254
+    255 255 255 255\r\n 255 255 255 255 254 254 253 253 254 254 255 254 255 255 255
+    255\r\n 255 255 255 255 243 125 111 111 112 116  99 226 255 255 255 255\r\n 255
+    255 255 255 248  83  95  94  91  90  86 226 255 255 255 255\r\n 255 255 255 255
+    243  85  95  96  93  94  89 223 255 255 255 255\r\n 255 255 255 254 250  91  97
+    \ 95  93  95  90 213 255 255 255 255\r\n 255 255 255 255 249  93  96  95  96  96
+    \ 93 220 255 255 255 255\r\n 255 255 255 251 222  66  79  77  75  75  75  75  78
+    \ 79  80  78\r\n 255 255 255 254 225  70  81  78  76  75  75  76  79  80  80  79\r\n
+    255 255 255 254 212  69  82  79  78  77  79  80  79  78  80  78\r\n 255 255 255
+    253 222  53  51  52  53  50  50  56  55  49  56  49\r\n 255 255 255 254 236 175
+    163 176 191 178 177 193 173 171 187 170\r\n 255 255 255 255 254 253 253 254 255
+    255 254 253 252 253 253 251\r\n 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\r\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\r\n 255
+    255 255 255 255 255 255 255 255 254 252 254 255 255 255 255\r\n 255 255 255 255
+    253 252 251 252 253 253 251 254 255 255 255 255\r\n 255 255 255 255 240 111  98
+    104 104 107  86 223 255 255 255 255\r\n 255 255 255 254 245  67  81  81  79  78
+    \ 72 221 255 255 255 255\r\n 255 255 255 254 239  78  86  84  83  84  80 220 255
+    255 255 255\r\n 255 255 255 251 240  77  88  85  84  85  80 210 255 255 255 255\r\n
+    255 255 255 253 246  80  86  85  86  86  82 217 255 255 255 255\r\n\r\n"
+  PatternWidth: .0799999982
+  BarcodeID: 0
+  MultiConfigFile: 
+  NFTDataName: 
+  currentUseContPoseEstimation: 0
+  currentFiltered: 0
+  currentFilterSampleRate: 30
+  currentFilterCutoffFreq: 15
+  currentNFTScale: 1
+--- !u!1001 &1959162693
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1990522609}
+    m_Modifications:
+    - target: {fileID: 400002, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -4.37113883e-08
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+      propertyPath: m_LocalScale.x
+      value: .0199999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+      propertyPath: m_LocalScale.y
+      value: .0199999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+      propertyPath: m_LocalScale.z
+      value: .0199999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a966cfc2e10a7df4fbcc7dd0f8047282, type: 3}
+  m_RootGameObject: {fileID: 1624968191}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &1990522608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1990522609}
+  - 114: {fileID: 1990522610}
+  m_Layer: 8
+  m_Name: 002_T-34
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1990522609
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1990522608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1624968195}
+  m_Father: {fileID: 657581942}
+  m_RootOrder: 1
+--- !u!114 &1990522610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1990522608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02d1ce5da0c446acaea956b6ae07690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToRemainVisible: 0
+  eventReceiver: {fileID: 0}
+  _markerTag: 002_T-34
+--- !u!1 &2017097251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2017097252}
+  - 33: {fileID: 2017097254}
+  - 23: {fileID: 2017097253}
+  m_Layer: 8
+  m_Name: barrel_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2017097252
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 2017097251}
+  m_LocalRotation: {x: 8.67637695e-08, y: .994919658, z: -8.77932216e-09, w: -.100672439}
+  m_LocalPosition: {x: -.107859515, y: 1.00487089, z: -.0883913562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 449259248}
+  m_RootOrder: 2
+--- !u!23 &2017097253
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 308d89d449f411445b137560ceeaab03,
+    type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 2017097251}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: e5c6ae2c3fdd73441a99d32139c48582, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &2017097254
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 308d89d449f411445b137560ceeaab03,
+    type: 3}
+  m_PrefabInternal: {fileID: 870289564}
+  m_GameObject: {fileID: 2017097251}
+  m_Mesh: {fileID: 4300004, guid: 308d89d449f411445b137560ceeaab03, type: 3}
+--- !u!1 &2038644385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2038644386}
+  - 33: {fileID: 2038644388}
+  - 23: {fileID: 2038644387}
+  m_Layer: 8
+  m_Name: Group34030
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2038644386
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 2038644385}
+  m_LocalRotation: {x: .608376205, y: -.379158586, z: .275091231, w: .640657485}
+  m_LocalPosition: {x: 4.03622484, y: .112261198, z: 1.09037828}
+  m_LocalScale: {x: 27.0937252, y: 27.0937195, z: 27.0937195}
+  m_Children: []
+  m_Father: {fileID: 1373194963}
+  m_RootOrder: 4
+--- !u!23 &2038644387
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300008, guid: 0b593e826a6ed2c48aaa14a7df831898,
+    type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 2038644385}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 56f4f8ea850fa8543866c32c0daa2a37, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &2038644388
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: 0b593e826a6ed2c48aaa14a7df831898,
+    type: 3}
+  m_PrefabInternal: {fileID: 880365522}
+  m_GameObject: {fileID: 2038644385}
+  m_Mesh: {fileID: 4300008, guid: 0b593e826a6ed2c48aaa14a7df831898, type: 3}
